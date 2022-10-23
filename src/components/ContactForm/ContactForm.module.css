@@ -1,0 +1,36 @@
+.contactForm {
+    padding: 10px;
+    border: 3px solid;
+    width: 250px;
+}
+
+.contactFormBlock {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactFormInput {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.btnContactForm {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-collapse: collapse;
+    color: #000000;
+    font-family: Lucida Sans Unicode, Lucida Grande, Sans-Serif;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.btnContactForm:hover,
+.btnContactForm:focus {
+    background: #188ce8;
+}
+
+.btnContactForm:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
