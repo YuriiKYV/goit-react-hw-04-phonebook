@@ -1,7 +1,6 @@
 import { PropTypes } from 'prop-types';
 
 export default function ContactList({ arrayContacts, removeContact }) {
-  console.log(arrayContacts);
   const items = arrayContacts.map(({ name, number, id }) => {
     return (
       <li key={id}>
